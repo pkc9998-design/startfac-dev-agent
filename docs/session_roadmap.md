@@ -40,33 +40,17 @@
 
 \### ✅ 완료
 
-\- \[x] Session 00: 프로젝트 초기 설정
+\- \[x] Session 00\~09: 기획/설계/백엔드/BO 프론트엔드
 
-\- \[x] Session 01: 서비스 기획 확정
-
-\- \[x] Session 02: FO 화면 상세 명세
-
-\- \[x] Session 03: BO 화면 상세 명세
-
-\- \[x] Session 04: DB 스키마 설계
-
-\- \[x] Session 05: API 엔드포인트 설계
-
-\- \[x] Session 06: 개발 환경 구성
-
-\- \[x] Session 07: FO API Route 구현
-
-\- \[x] Session 08: BO API Route 구현
-
-\- \[x] Session 09: BO 프론트엔드 구현
+\- \[x] Session 10: FO 예약 플로우 프론트엔드 (fo\_frontend\_code.md)
 
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 10: FO 예약 플로우 프론트엔드
+\- \[ ] Session 11: FO 예약 확인/상세 페이지
 
-&#x20; - 홈 → STEP 1\~5 → 예약 완료
+&#x20; - /my-reservation, /my-reservation/:id
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
@@ -74,13 +58,13 @@
 
 \### 📋 예정
 
-\- \[ ] Session 11: FO 예약 확인 + 이용 안내 페이지
-
 \- \[ ] Session 12: BO 나머지 화면 개발
+
+&#x20; - checkin/checkout/storage/reservations/sales
 
 \- \[ ] Session 13: QA 및 버그 수정
 
-\- \[ ] Session 14: 배포 및 운영
+\- \[ ] Session 14: 배포 및 운영 (Vercel + Supabase)
 
 
 

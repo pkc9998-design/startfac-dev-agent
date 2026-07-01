@@ -1,3 +1,31 @@
+## Session 10 | 2026-07-01 | FO 예약 플로우 프론트엔드 구현
+
+### 작업 내용
+- reservation-store.ts: sessionStorage 상태 관리 유틸
+- FO 홈 페이지 (히어로/이용방법/CTA)
+- StepBar 컴포넌트 (진행률 바 + 뒤로가기)
+- STEP 1: 터미널/방향 카드 선택 + 미니 달력 (90일 제한)
+- STEP 2: 짐 개수 카드 + 초과 안내 + 요금 표시
+- STEP 3: 이름/전화번호 + 실시간 포맷 + 유효성 검증
+- STEP 4: 예약 요약 + 토스페이 SDK + prepare→결제→confirm
+- ReservationQR 컴포넌트 (qrcode.react SVG)
+- STEP 5: QR 표시 + 복사 + Web Share API + 뒤로가기 차단
+- docs/fo_frontend_code.md 작성 완료
+
+### 주요 결정사항
+- sessionStorage: 단일 키 JSON 직렬화 방식
+- 달력: 외부 라이브러리 미사용 (직접 구현)
+- 토스페이: Promise 방식 (리디렉트 방식 미사용)
+- QR 오류 정정: Level M (15%)
+- 완료 화면 뒤로가기: popstate 이벤트 → 홈 replace
+
+### 다음 세션 예고
+- Session 11: FO 예약 확인/상세 페이지 구현
+  - /my-reservation, /my-reservation/:id
+  - 담당 에이전트: 개발 (가온)
+
+---
+
 ## Session 09 | 2026-07-01 | BO 프론트엔드 구현
 
 ### 작업 내용
