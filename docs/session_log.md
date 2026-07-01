@@ -14,6 +14,31 @@
 - scripts/seed.ts (어드민 초기 계정)
 - docs/dev_setup.md 작성 완료
 
+## Session 07 | 2026-07-01 | FO API Route 구현
+
+### 작업 내용
+- FO API Route 5개 TypeScript 코드 작성
+  - prepare/route.ts: toss_order_id 발급 + PENDING INSERT
+  - confirm/route.ts: 토스페이 승인 + 예약 확정 + SMS
+  - [reservationNo]/route.ts: 예약 조회 + 마스킹
+  - [reservationNo]/cancel/route.ts: 취소 처리
+  - webhook/route.ts: 웹훅 서명 검증 + 멱등 처리
+- docs/fo_api_code.md 작성 완료
+
+### 주요 결정사항
+- Supabase 트랜잭션 미지원 → 순차 실행 + 웹훅 복구 방식 채택
+- 낙관적 잠금: UPDATE WHERE status = 'RESERVED' 조건 포함
+- 전화번호 마스킹: API 응답 조립 시점에서만 적용
+- SMS 발송: sendSmsAsync() 비동기 호출 (응답 블로킹 없음)
+- 웹훅 멱등 처리: 이미 처리된 건 스킵 후 200 반환
+
+### 다음 세션 예고
+- Session 08: BO API Route 구현
+  - dashboard / checkin / checkout / cancel / storage / sales
+  - 담당 에이전트: 개발 (가온)
+
+---
+
 ### 주요 결정사항
 - 런타임: Node.js 20 LTS / Next.js 14 App Router
 - 유효성 검증: Zod 스키마 통일

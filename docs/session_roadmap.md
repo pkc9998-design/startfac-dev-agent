@@ -54,21 +54,21 @@
 
 \- \[x] Session 06: 개발 환경 구성 (dev\_setup.md)
 
+\- \[x] Session 07: FO API Route 구현 (fo\_api\_code.md)
+
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 07: FO API Route 구현
+\- \[ ] Session 08: BO API Route 구현
 
-&#x20; - prepare → confirm → 예약 조회/취소
+&#x20; - dashboard / checkin / checkout / cancel / storage / sales
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
 
 
 \### 📋 예정
-
-\- \[ ] Session 08: BO API Route 구현
 
 \- \[ ] Session 09: FO 화면 개발
 
