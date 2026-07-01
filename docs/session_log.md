@@ -1,3 +1,26 @@
+## Session 05 | 2026-07-01 | API 엔드포인트 설계
+
+### 작업 내용
+- Next.js 14 App Router 기준 API 설계
+- FO API 5종, BO API 10종 상세 정의
+- 토스페이 결제 연동 흐름 설계
+- 알리고 SMS 연동 유틸 설계
+- 미들웨어 및 인증 처리 설계
+- API 파일 구조 정의
+- docs/api_spec.md 작성 완료
+
+### 주요 결정사항
+- FO API: 인증 없음 / BO API: NextAuth.js 세션 필수
+- Supabase service_role 키: 서버사이드 전용 (클라이언트 노출 금지)
+- SMS 발송 실패: 예약 롤백 없음 / sms_logs에 FAILED 기록
+- 강제 취소 환불: 토스페이 콘솔 수동 처리 (API 자동 호출 없음)
+- toss_order_id 형식: bagdrop_{YYYYMMDD}_{8자리 랜덤 hex}
+
+### 다음 세션 예고
+- Session 06: 디자인 에이전트 다올 착수 또는 개발 에이전트 가온 착수
+
+---
+
 ## Session 04 | 2026-07-01 | DB 스키마 설계
 
 ### 작업 내용

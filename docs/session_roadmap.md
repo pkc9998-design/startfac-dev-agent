@@ -1,5 +1,3 @@
-
-
 \# 프로젝트 세션 로드맵
 
 
@@ -52,33 +50,33 @@
 
 \- \[x] Session 04: DB 스키마 설계 (db\_schema.md)
 
+\- \[x] Session 05: API 엔드포인트 설계 (api\_spec.md)
+
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 05: API 엔드포인트 설계
+\- \[ ] Session 06: 개발 환경 구성 및 프로젝트 셋업
 
-&#x20; - FO 예약/결제 API 우선
+&#x20; - Next.js 프로젝트 생성
 
-&#x20; - 산출물: docs/api\_spec.md
+&#x20; - Supabase 연동
+
+&#x20; - 담당 에이전트: 개발 (가온)
 
 
 
 \### 📋 예정
 
-\- \[ ] Session 06: 디자인 와이어프레임 (다올)
+\- \[ ] Session 07: FO 핵심 기능 개발 (예약/결제)
 
-\- \[ ] Session 07: 개발 환경 구성 (가온)
+\- \[ ] Session 08: BO 어드민 개발
 
-\- \[ ] Session 08: FO 핵심 기능 개발
+\- \[ ] Session 09: QA 및 버그 수정
 
-\- \[ ] Session 09: BO 어드민 개발
+\- \[ ] Session 10: 배포 및 운영
 
-\- \[ ] Session 10: QA 및 버그 수정
 
-\- \[ ] Session 11: 배포 및 운영
-
-\---
 
 
 
