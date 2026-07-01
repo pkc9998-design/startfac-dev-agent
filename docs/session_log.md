@@ -1,3 +1,31 @@
+## Session 06 | 2026-07-01 | 개발 환경 구성 및 초기 셋업
+
+### 작업 내용
+- Next.js 14 App Router 프로젝트 설정
+- 패키지 목록 및 설치 명령 정의
+- 전체 폴더 구조 확정
+- 환경변수 템플릿 작성
+- lib/supabase.ts (타입 정의 포함)
+- lib/auth.ts (로그인 실패 잠금 포함)
+- lib/validate.ts (Zod 스키마 + 헬퍼)
+- lib/toss.ts (결제 승인 + 웹훅 서명 검증)
+- lib/sms.ts (템플릿 + 비동기 발송)
+- middleware.ts (BO 접근 제어)
+- scripts/seed.ts (어드민 초기 계정)
+- docs/dev_setup.md 작성 완료
+
+### 주요 결정사항
+- 런타임: Node.js 20 LTS / Next.js 14 App Router
+- 유효성 검증: Zod 스키마 통일
+- SMS 발송 실패: 예약 롤백 없음 / sms_logs FAILED 기록
+- bcryptjs 사용 (native 빌드 불필요)
+- 개발 환경: 알리고 testmode_yn=Y (실제 발송 안 함)
+
+### 다음 세션 예고
+- Session 07: API Route 구현
+  - FO: prepare → confirm → 예약 조회/취소
+  - 담당 에이전트: 개발 (가온)
+
 ## Session 05 | 2026-07-01 | API 엔드포인트 설계
 
 ### 작업 내용

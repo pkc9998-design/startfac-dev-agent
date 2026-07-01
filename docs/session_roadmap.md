@@ -52,15 +52,15 @@
 
 \- \[x] Session 05: API 엔드포인트 설계 (api\_spec.md)
 
+\- \[x] Session 06: 개발 환경 구성 (dev\_setup.md)
+
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 06: 개발 환경 구성 및 프로젝트 셋업
+\- \[ ] Session 07: FO API Route 구현
 
-&#x20; - Next.js 프로젝트 생성
-
-&#x20; - Supabase 연동
+&#x20; - prepare → confirm → 예약 조회/취소
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
@@ -68,15 +68,15 @@
 
 \### 📋 예정
 
-\- \[ ] Session 07: FO 핵심 기능 개발 (예약/결제)
+\- \[ ] Session 08: BO API Route 구현
 
-\- \[ ] Session 08: BO 어드민 개발
+\- \[ ] Session 09: FO 화면 개발
 
-\- \[ ] Session 09: QA 및 버그 수정
+\- \[ ] Session 10: BO 화면 개발
 
-\- \[ ] Session 10: 배포 및 운영
+\- \[ ] Session 11: QA 및 버그 수정
 
-
+\- \[ ] Session 12: 배포 및 운영
 
 
 
