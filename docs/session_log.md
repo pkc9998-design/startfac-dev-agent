@@ -1,3 +1,23 @@
+## Session 09 | 2026-07-01 | BO 프론트엔드 구현
+
+### 작업 내용
+- NextAuth App Router 핸들러 작성
+- BO 로그인 페이지 (폼/에러/로딩/callbackUrl)
+- BottomNav 컴포넌트 (5개 탭/활성 판단/safe-area)
+- AdminLayout 컴포넌트 (GNB/로그아웃/세션만료 모달)
+- 대시보드 페이지 (현황카드/빠른액션/대기목록/30초 폴링)
+- docs/bo_frontend_code.md 작성 완료
+
+### 주요 결정사항
+- 폴링: useEffect + setInterval 30초 (cleanup 필수)
+- 활성탭: startsWith 매칭 (대시보드만 정확 매칭)
+- pb-safe: tailwind.config.ts에 safe-area-inset-bottom 추가
+- AdminLayout: use client (useSession 클라이언트 훅 필요)
+
+### 다음 세션 예고
+- Session 10: FO 예약 플로우 프론트엔드 구현
+  - 홈 → STEP
+
 ## Session 08 | 2026-07-01 | BO API Route 구현
 
 ### 작업 내용

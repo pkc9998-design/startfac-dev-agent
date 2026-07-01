@@ -58,11 +58,15 @@
 
 \- \[x] Session 08: BO API Route 구현
 
+\- \[x] Session 09: BO 프론트엔드 구현
+
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 09: NextAuth.js 설정 + BO 로그인 페이지
+\- \[ ] Session 10: FO 예약 플로우 프론트엔드
+
+&#x20; - 홈 → STEP 1\~5 → 예약 완료
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
@@ -70,13 +74,13 @@
 
 \### 📋 예정
 
-\- \[ ] Session 10: FO 화면 개발
+\- \[ ] Session 11: FO 예약 확인 + 이용 안내 페이지
 
-\- \[ ] Session 11: BO 화면 개발
+\- \[ ] Session 12: BO 나머지 화면 개발
 
-\- \[ ] Session 12: QA 및 버그 수정
+\- \[ ] Session 13: QA 및 버그 수정
 
-\- \[ ] Session 13: 배포 및 운영
+\- \[ ] Session 14: 배포 및 운영
 
 
 
