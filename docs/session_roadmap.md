@@ -42,27 +42,27 @@
 
 \- \[x] Session 00: 프로젝트 초기 설정
 
-\- \[x] Session 01: 서비스 기획 확정 (feature\_spec.md)
+\- \[x] Session 01: 서비스 기획 확정
 
-\- \[x] Session 02: FO 화면 상세 명세 (fo\_screen\_spec.md)
+\- \[x] Session 02: FO 화면 상세 명세
 
-\- \[x] Session 03: BO 화면 상세 명세 (bo\_screen\_spec.md)
+\- \[x] Session 03: BO 화면 상세 명세
 
-\- \[x] Session 04: DB 스키마 설계 (db\_schema.md)
+\- \[x] Session 04: DB 스키마 설계
 
-\- \[x] Session 05: API 엔드포인트 설계 (api\_spec.md)
+\- \[x] Session 05: API 엔드포인트 설계
 
-\- \[x] Session 06: 개발 환경 구성 (dev\_setup.md)
+\- \[x] Session 06: 개발 환경 구성
 
-\- \[x] Session 07: FO API Route 구현 (fo\_api\_code.md)
+\- \[x] Session 07: FO API Route 구현
+
+\- \[x] Session 08: BO API Route 구현
 
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 08: BO API Route 구현
-
-&#x20; - dashboard / checkin / checkout / cancel / storage / sales
+\- \[ ] Session 09: NextAuth.js 설정 + BO 로그인 페이지
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
@@ -70,13 +70,13 @@
 
 \### 📋 예정
 
-\- \[ ] Session 09: FO 화면 개발
+\- \[ ] Session 10: FO 화면 개발
 
-\- \[ ] Session 10: BO 화면 개발
+\- \[ ] Session 11: BO 화면 개발
 
-\- \[ ] Session 11: QA 및 버그 수정
+\- \[ ] Session 12: QA 및 버그 수정
 
-\- \[ ] Session 12: 배포 및 운영
+\- \[ ] Session 13: 배포 및 운영
 
 
 

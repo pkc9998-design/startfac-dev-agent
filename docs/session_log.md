@@ -1,3 +1,30 @@
+## Session 08 | 2026-07-01 | BO API Route 구현
+
+### 작업 내용
+- BO API Route 8개 TypeScript 코드 작성
+  - dashboard/route.ts: 병렬 쿼리 4개 + 터미널 필터
+  - reservations/route.ts: 동적 필터 + 페이징
+  - reservations/[id]/route.ts: toss_payment_key 포함
+  - checkin/route.ts: RESERVED → STORED + 낙관적 잠금
+  - checkout/route.ts: STORED → RETURNED + 낙관적 잠금
+  - cancel/route.ts: 강제 취소 + 환불 안내
+  - storage/route.ts: 경과 시간 + 경고 레벨
+  - sales/route.ts: 일/주/월 매출 집계
+- lib/admin.ts 공통 헬퍼 작성
+- docs/bo_api_code.md 작성 완료
+
+### 주요 결정사항
+- lib/admin.ts: getAdminSession / fetchReservation / guardStatus 분리
+- 낙관적 잠금: UPDATE WHERE status = expected 패턴 전체 적용
+- sales: payments ↔ reservations !inner JOIN 활용
+- 취소 건수: reservations.cancelled_at 기준 (payments 수동 환불 대응)
+
+### 다음 세션 예고
+- Session 09: NextAuth.js 설정 완성 및 BO 로그인 페이지 구현
+  - 담당 에이전트: 개발 (가온)
+
+---
+
 ## Session 06 | 2026-07-01 | 개발 환경 구성 및 초기 셋업
 
 ### 작업 내용
