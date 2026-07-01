@@ -40,17 +40,17 @@
 
 \### ✅ 완료
 
-\- \[x] Session 00\~09: 기획/설계/백엔드/BO 프론트엔드
+\- \[x] Session 00\~10: 기획/설계/백엔드/FO·BO 프론트엔드
 
-\- \[x] Session 10: FO 예약 플로우 프론트엔드 (fo\_frontend\_code.md)
+\- \[x] Session 11: FO 예약 확인/상세/이용 안내 (fo\_mypage\_code.md)
 
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 11: FO 예약 확인/상세 페이지
+\- \[ ] Session 12: BO 나머지 화면 구현
 
-&#x20; - /my-reservation, /my-reservation/:id
+&#x20; - 접수/반환/보관현황/예약관리/매출
 
 &#x20; - 담당 에이전트: 개발 (가온)
 
@@ -58,13 +58,9 @@
 
 \### 📋 예정
 
-\- \[ ] Session 12: BO 나머지 화면 개발
-
-&#x20; - checkin/checkout/storage/reservations/sales
-
 \- \[ ] Session 13: QA 및 버그 수정
 
-\- \[ ] Session 14: 배포 및 운영 (Vercel + Supabase)
+\- \[ ] Session 14: Vercel 배포 + Supabase 마이그레이션
 
 
 
