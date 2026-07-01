@@ -1,3 +1,25 @@
+## Session 04 | 2026-07-01 | DB 스키마 설계
+
+### 작업 내용
+- Supabase PostgreSQL 기준 DB 스키마 설계
+- 테이블 5종 정의 (reservations, payments, reservation_logs, sms_logs, admin_users)
+- Enum 타입 6종 정의
+- 인덱스 설계
+- RLS 정책 설계
+- 초기 시드 스크립트 작성
+- docs/db_schema.md 작성 완료
+
+### 주요 결정사항
+- 예약번호 채번: PostgreSQL 날짜별 Sequence + RPC 함수
+- 모든 DB 접근: Next.js API Routes → service_role 키 전용
+- FO/BO 클라이언트에 anon 키 미노출
+- 강제 취소 환불: 토스페이 콘솔 수동 처리 (DB는 상태 전환만)
+
+### 다음 세션 예고
+- Session 05: API 엔드포인트 설계 또는 디자인 에이전트 다올 착수
+
+---
+
 ## Session 03 | 2026-07-01 | BO 화면별 상세 요구사항 명세
 
 ### 작업 내용

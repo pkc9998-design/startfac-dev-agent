@@ -1,3 +1,5 @@
+
+
 \# 프로젝트 세션 로드맵
 
 
@@ -42,47 +44,39 @@
 
 \- \[x] Session 00: 프로젝트 초기 설정
 
-&#x20; - GitHub repo, 폴더 구조, 에이전트 규칙 파일, README 작성
+\- \[x] Session 01: 서비스 기획 확정 (feature\_spec.md)
 
-\- \[x] Session 01: 서비스 기획 확정
+\- \[x] Session 02: FO 화면 상세 명세 (fo\_screen\_spec.md)
 
-&#x20; - 기능 목록, FO/BO IA, 기술 스택 확정
+\- \[x] Session 03: BO 화면 상세 명세 (bo\_screen\_spec.md)
 
-&#x20; - 산출물: docs/feature\_spec.md
-
-\- \[x] Session 02: FO 화면별 상세 요구사항 명세
-
-&#x20; - 홈, STEP1\~5, 예약확인, 예약상세 8개 화면
-
-&#x20; - 산출물: docs/fo\_screen\_spec.md
+\- \[x] Session 04: DB 스키마 설계 (db\_schema.md)
 
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 03: BO 화면별 상세 요구사항 명세
+\- \[ ] Session 05: API 엔드포인트 설계
 
-&#x20; - 로그인, 대시보드, 짐 접수, 짐 반환 화면 우선
+&#x20; - FO 예약/결제 API 우선
 
-&#x20; - 산출물: docs/bo\_screen\_spec.md
+&#x20; - 산출물: docs/api\_spec.md
 
 
 
 \### 📋 예정
 
-\- \[ ] Session 04: 주요 화면 와이어프레임
+\- \[ ] Session 06: 디자인 와이어프레임 (다올)
 
-\- \[ ] Session 05: 개발 환경 구성
+\- \[ ] Session 07: 개발 환경 구성 (가온)
 
-\- \[ ] Session 06: FO 핵심 기능 개발 (예약/결제)
+\- \[ ] Session 08: FO 핵심 기능 개발
 
-\- \[ ] Session 07: BO 어드민 개발 (예약/결제 현황)
+\- \[ ] Session 09: BO 어드민 개발
 
-\- \[ ] Session 08: QA 및 버그 수정
+\- \[ ] Session 10: QA 및 버그 수정
 
-\- \[ ] Session 09: 배포 및 운영
-
-
+\- \[ ] Session 11: 배포 및 운영
 
 \---
 
