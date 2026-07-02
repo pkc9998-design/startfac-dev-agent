@@ -1,3 +1,28 @@
+## Session 12 | 2026-07-01 | BO 나머지 화면 구현
+
+### 작업 내용
+- bo-utils.ts: 포맷/레이블/에러 메시지 헬퍼 통합
+- QRScanner.tsx: html5-qrcode 동적 import + 스캔 가이드 오버레이
+- checkin/page.tsx: scan→confirm→done 3단계 화면 상태
+- checkout/page.tsx: CheckInOutPage mode="checkout" 재사용
+- storage/page.tsx: 30초 폴링 + 경과 시간 경고 + Bottom Sheet
+- reservations/page.tsx: 3중 필터 + URL 파라미터 초기 세팅
+- reservations/[id]/page.tsx: 강제 취소 모달 + 처리 이력 타임라인
+- sales/page.tsx: 기간 탭 + 날짜 네비게이터 + 매출 요약
+- docs/bo_remaining_code.md 작성 완료
+
+### 주요 결정사항
+- QRScanner: SSR 오류 방지 위해 html5-qrcode 동적 import
+- CheckInOutPage: mode prop으로 접수/반환 코드 중복 제거
+- storage → checkout 연동: URL 파라미터로 예약번호 전달
+- 매출 날짜 이동: 달력 없이 shiftDate() 헬퍼로 처리
+
+### 다음 세션 예고
+- Session 13: QA 및 버그 수정
+- Session 14: Vercel 배포 + Supabase 마이그레이션
+
+---
+
 
 ## Session 11 | 2026-07-01 | FO 예약 확인/상세/이용 안내 구현
 
