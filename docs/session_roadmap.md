@@ -44,25 +44,29 @@
 
 \### ✅ 완료
 
-\- \[x] Session 00\~12: 기획/설계/개발 전체
+\- \[x] Session 00\~13: 기획/설계/개발/QA 전체
 
-\- \[x] Session 13: QA 체크리스트 (qa\_checklist.md)
+\- \[x] Session 14: 버그 수정 (bug\_fixes.md)
 
 
 
 \### 🔄 진행 중
 
-\- \[ ] Session 14: 배포 전 필수 버그 수정
+\- \[ ] Session 15: Vercel 배포 + Supabase 마이그레이션
 
-&#x20; - 버그 #1\~#8 수정
+&#x20; - DB 마이그레이션 실행
 
-&#x20; - 담당 에이전트: 개발 (가온)
+&#x20; - 환경변수 설정
+
+&#x20; - Vercel 배포
+
+&#x20; - 스모크 테스트
 
 
 
 \### 📋 예정
 
-\- \[ ] Session 15: Vercel 배포 + Supabase 마이그레이션
+\- \[ ] Session 16: 운영 모니터링 설정
 
 
 

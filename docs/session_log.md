@@ -1,3 +1,30 @@
+## Session 14 | 2026-07-01 | 배포 전 버그 수정
+
+### 작업 내용
+- 버그 #1: phoneSchema transform으로 전화번호 자동 정규화
+- 버그 #2: confirmTossPayment AbortController 8초 타임아웃
+- 버그 #3: confirmReservationSchema use_date 포함 확인 (기존 정상)
+- 버그 #5: verifyTossWebhookSignature throw → false 반환 + try-catch 이중 방어
+- 버그 #6: checkin API 이용일 vs 오늘 날짜 비교 추가
+- 버그 #8: step4 sdkError state + Script onError 핸들러
+- 버그 #9: DoneFeedback 2초 자동 복귀 + 카운트다운 표시
+- 버그 #10: usePolling 공통 훅 + Page Visibility API 적용
+- 버그 #11: BottomNav isActive /admin/reservations → 홈 탭 활성
+- 버그 #12: middleware.ts Upstash Rate Limiting 추가
+- docs/bug_fixes.md 작성 완료
+
+### 주요 결정사항
+- Rate Limiting: 환경변수 미설정 시 스킵 (개발 환경 편의)
+- Rate Limiting 오류: try-catch로 감싸 서비스 중단 방지
+- 이용일 검증: 당일만 허용 (±1일은 정책 확정 후 변경)
+- usePolling: onPollRef로 함수 안정화 (불필요한 인터벌 재설정 방지)
+
+### 다음 세션 예고
+- Session 15: Vercel 배포 + Supabase 마이그레이션
+  - 담당 에이전트: 개발 (가온)
+
+---
+
 ## Session 13 | 2026-07-01 | QA 체크리스트 작성
 
 ### 작업 내용
