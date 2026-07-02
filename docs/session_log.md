@@ -1,3 +1,24 @@
+## Session 15 | 2026-07-01 | Vercel 배포 가이드 작성
+
+### 작업 내용
+- Supabase 프로젝트 생성 및 DB 마이그레이션 7단계 가이드
+- Upstash Redis 설정 가이드
+- 알리고 SMS 설정 가이드
+- 토스페이 라이브 키 전환 가이드
+- Vercel 환경변수 14개 전체 설정 가이드
+- 배포 후 스모크 테스트 체크리스트
+- 운영 중 모니터링 SQL 쿼리 및 방법
+- 긴급 장애 대응 절차
+- docs/deployment_guide.md 작성 완료
+
+### 주요 결정사항
+- Supabase 리전: ap-northeast-1 (도쿄) — 한국 서비스 latency 최소화
+- Upstash 리전: ap-northeast-1 (도쿄) — 동일 리전 권장
+- 롤백: Vercel 이전 배포 Redeploy (30초 내 복구)
+- 어드민 초기 비밀번호: 시드 후 즉시 변경 필수
+
+---
+
 ## Session 14 | 2026-07-01 | 배포 전 버그 수정
 
 ### 작업 내용
